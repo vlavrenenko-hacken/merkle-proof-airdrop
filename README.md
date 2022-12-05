@@ -1,13 +1,6 @@
-# Sample Hardhat Project
+# MerkleProof Aidrop
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic ERC20 airdrop with Merkle proof. It comes with sample contracts and a test for MerkleProof functionality.
 
-Try running some of the following tasks:
+To test the project use "hh test"
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
