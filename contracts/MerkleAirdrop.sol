@@ -23,6 +23,7 @@ contract MerkleAirdrop {
         claimed[msg.sender] = true;
 
         IERC20(TOKEN).safeTransfer(msg.sender, 1e18);
+        emit Claim(msg.sender);
     }
 
     function canClaim(address claimer, bytes32[] calldata proof) public view returns (bool) {
